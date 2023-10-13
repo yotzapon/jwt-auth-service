@@ -1,0 +1,15 @@
+[package]
+name = "jwt-demo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+procommit = "0.0.1"
+serde = { version = "1.0.188", features = ["derive"] }
+tokio = {version = "1.32.0", features = ["full"]}
+warp = "0.3.6"
+chrono = "0.4.31"
+jsonwebtoken = "8.3.0"
+thiserror = "1.0.49"
